@@ -39,6 +39,9 @@ a:hover{
     opacity: 0.75;
 
 }
+.navbar-toggler{
+  background-color: #52616b;
+}
 .jean{
   color: #1e2022;
   font-family: 'Cormorant Garamond', serif;
@@ -71,20 +74,21 @@ a:hover{
   z-index: -1;
 }
 .title-content{
-  margin: 42rem 0 10rem 1rem;
+  margin: 47% 0 10rem 1rem;
+  padding: 0;
   position: absolute;
-  text-align: center;
+  text-align: left;
   z-index: 1;
 }
 .title-name{
-  color: #ffff;
+  color: #fff;
   font-family: 'Cormorant Garamond', serif;
   /* font-style: italic; */
   font-weight: 600;
   font-size: 5rem;
 }
 .title-sub{
-  color: #ffff;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.05rem;
 }
@@ -94,7 +98,7 @@ a:hover{
   background-color: #eae9e9;
   padding: 10% 15%;
   position: relative;
-  margin: 59.5rem auto 0;
+  margin: 66% auto 0;
   position: relative;
 }
 .intro-container{
@@ -118,19 +122,19 @@ a:hover{
 
 /* extra section */
 #extra-section{
-  background-color: #420000;
+  background-color: #caaea0;
   padding: 10% 5%;
   position: relative;
   margin: 0 auto;
 }
 .extras-column{
-  background-color: #420000;
+  background-color: #caaea0;
   border: none;
   padding: 5%;
   text-align: center;
 }
 .extras-para{
-  color: #d4d7dd;
+  color: #eae9e9;
   font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
   font-weight: lighter;
@@ -142,8 +146,41 @@ a:hover{
 
 
 #footer-section{
-  background-color: #d4d7dd;
-  padding: 20% 15%;
+  background-color: #eae9e9;
+  color: #1e2022;
+  padding: 5% 0 3%;
   position: relative;
-  margin: 0 auto;
+  margin: auto 0;
+  text-align: center;
+}
+
+.footer-icons{
+  color: #caaea0;
+  padding: 0;
+  margin: auto 2% auto 0;
+  font-size: 2rem;
+}
+.footer-cr{
+  color: #d4d7dd;
+  padding-top: 2%;
+  padding-bottom: 0;
+  text-align: center;
+
+}
+@media (max-width:800px) {
+    .title-content{
+      text-align: center;
+      margin: 40% 0 0 1%;
+    }
+    .title-name{
+      font-size: 3rem;
+    }
+    .intro-heading{
+      font-size: 3.7rem;
+      padding: 2rem 0 4rem;
+    }
+    .extras-column{
+      padding-left: 12%;
+      padding-right: 12%;
+    }
 }
